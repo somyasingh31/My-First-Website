@@ -4,81 +4,94 @@
     <meta charset="UTF-8" />
     <meta name="veiwport" content="width=device-width, initial-scale=1.0" />
     <title>My Web-Dev Journey</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <img src="Images/Avatar.jpg" alt="Profile Picture" width="200" />
+    <main>
+      <section class="hero-section">
+        <div class="hero-image">
+          <img class="hero" src="Images/Avatar.jpg" alt="Profile Picture" />
+        </div>
 
-    <h1>Hi, I'm Somya</h1>
-    <p>Learning Full Stack Web Development and documenting my journey.</p>
+        <div class="hero-content">
+          <h1>Hi, I'm Somya</h1>
+          <p>Learning Full Stack Web Development and documenting my journey.</p>
+          <div class="hero-buttons">
+            <a
+              href="https://www.linkedin.com/in/somyasingh2008/"
+              target="_blank"
+              >LinkedIn</a
+            >
+            <a href="https://github.com/somyasingh31" target="_blank">Github</a>
+            <a href="https://leetcode.com/u/somyasingh31/" target="_blank"
+              >Leetcode</a
+            >
+          </div>
+        </div>
+      </section>
 
-    <h2>About Me</h2>
-    <p>
-      I have a solid foundation in <strong>C/C++ programming</strong> and
-      recently started my journey into <strong>Web Development</strong>.
-      Currently, I am focused on building hands‑on projects to strengthen my
-      skills and expand my knowledge of modern web technologies. My goal is to
-      create clean, responsive websites while applying my programming background
-      to real‑world applications. I enjoy solving problems, learning new tools,
-      and continuously improving through practical project work.
-    </p>
+      <section class="about-card">
+        <h2>About Me</h2>
+        <p>
+          I have a solid foundation in <strong>C/C++ programming</strong> and
+          recently started my journey into <strong>Web Development</strong>.
+          Currently, I am focused on building hands‑on projects to strengthen my
+          skills and expand my knowledge of modern web technologies. My goal is
+          to create clean, responsive websites while applying my programming
+          background to real‑world applications. I enjoy solving problems,
+          learning new tools, and continuously improving through practical
+          project work.
+        </p>
+      </section>
 
-    <h2>Current Skills</h2>
-    <ul>
-      <li>C(Programming language)</li>
-      <li>C++</li>
-      <li>HTML</li>
-      <li>DSA</li>
-    </ul>
+      <h2>Current Skills</h2>
+      <div class="skill-container">
+        <div class="skill-card">C</div>
+        <div class="skill-card">C++</div>
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">DSA</div>
+      </div>
 
-    <h2>Learning Roadmap</h2>
-    <ol>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Java Script</li>
-      <li>React</li>
-      <li>Backend</li>
-    </ol>
+      <h2>Learning Roadmap</h2>
+      <div class="upcoming-container">
+        <div class="upcoming-card">HTML</div>
+        <div class="upcoming-card">CSS</div>
+        <div class="upcoming-card">Java Script</div>
+        <div class="upcoming-card">React</div>
+        <div class="upcoming-card">Backend</div>
+      </div>
 
-    <h2>Learning Resources</h2>
-    <ul>
-      <li><a href="https://developer.mozilla.org" target="_blank"> MDN</a></li>
+      <h2>Learning Resources</h2>
+      <div class="resources-button">
+        <a href="https://developer.mozilla.org" target="_blank"> MDN</a>
 
-      <li>
         <a href="https://www.freecodecamp.org" target="_blank"> Freecodecamp</a>
-      </li>
 
-      <li><a href="https://leetcode.com" target="_blank"> Leetcode</a></li>
-    </ul>
+        <a href="https://leetcode.com" target="_blank"> Leetcode</a>
+      </div>
 
-    <h2>Building and Learning</h2>
-    <img
-      src="Images/Coding.jpeg"
-      alt="Working on web development projects"
-      width="400"
-    />
-    <p>
-      Starting my journey from C/C++ and learning Full Stack Web Development
-      step by step.
-    </p>
-    <p>
-      Currently learning HTML and building projects while documenting progress.
-    </p>
-
-    <h2>Connect with me</h2>
-    <ul>
-      <li>
-        <a href="https://www.linkedin.com/in/somyasingh2008/" target="_blank"
-          >Linkedin</a
-        >
-      </li>
-      <li>
-        <a href="https://github.com/somyasingh31" target="_blank">Github</a>
-      </li>
-      <li>
-        <a href="https://leetcode.com/u/somyasingh31/" target="_blank"
-          >Leetcode</a
-        >
-      </li>
-    </ul>
+      <section class="learning-card">
+        <h2>Building and Learning</h2>
+        <div class="learning-container">
+          <div class="learning-image">
+            <img
+              src="Images/Coding.jpeg"
+              alt="Working on web development projects"
+              width="400"
+            />
+          </div>
+          <div class="learning-content">
+            <p>
+              Starting my journey from C/C++ and learning Full Stack Web
+              Development step by step.
+            </p>
+            <p>
+              Currently learning HTML and building projects while documenting
+              progress.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
