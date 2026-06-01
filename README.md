@@ -1,21 +1,42 @@
 # Web Dev Journey
 
-My first HTML project documenting my transition from C/C++ to Full Stack Web Development.
+My first portfolio website documenting my transition from C/C++ to Full Stack Web Development.
+
+## Live Demo
+
+🌐 https://somyasingh31.github.io/My-First-Website/
 
 ## Features
 
-- About Me
-- Skills
+- Personal Introduction
+- About Me Section
+- Skills Showcase
 - Learning Roadmap
-- Learning Setup
+- Learning Resources
 - Social Links
+- Responsive Layout (Work in Progress)
 
-## Tech Used
+## Technologies Used
 
-- HTML
+- HTML5
+- CSS3
+- Git
+- GitHub
+- GitHub Pages
 
-## Upcoming
+## Current Learning Path
 
-- CSS
-- JavaScript
-- React
+- ✅ HTML
+- ✅ CSS Basics
+- 🔄 Responsive Web Design
+- ⏳ JavaScript
+- ⏳ React
+- ⏳ Backend Development
+
+## Author
+
+**Somya Singh**
+
+- LinkedIn: https://www.linkedin.com/in/somyasingh2008/
+- GitHub: https://github.com/somyasingh31
+- LeetCode: https://leetcode.com/u/somyasingh31/
